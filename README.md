@@ -21,7 +21,7 @@ Mineral classification from scanning electron microscopy (SEM) images
 `pandas` · `numpy` · `scikit-learn` · `catboost` · `mendeleev`
 
 * built an end-to-end machine learning pipeline for mineral classification from scanning electron microscopy (SEM) data
-* cleaned the dataset by removing invalid outliers—cases where elemental concentrations exceeded 100%—and corrected mineral labels in the target variable
+* cleaned the dataset by removing invalid outliers - cases where elemental concentrations exceeded 100% - and corrected mineral labels in the target variable
 * leveraged additional mineralogy study to engineer new high-signal features, primarily ratios of elemental fractions across minerals
 * developed and benchmarked several models, including Random Forest, SVM, and CatBoost, selecting Random Forest as the best-performing solution
 * optimized hyperparameters using GridSearchCV and StratifiedKFold
