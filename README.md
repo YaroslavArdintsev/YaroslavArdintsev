@@ -13,9 +13,7 @@ data cleaning and analysis, feature engineering, training, validation, and inter
 
 ### Featured projects
 
-#### Hackathon “Intelligent Data Analysis in the Oil and Gas Industry”
-
-AML GNN for SAML-D
+#### AML GNN for SAML-D
 
 `pandas` · `numpy` · `torch` · `scikit-learn`
 
