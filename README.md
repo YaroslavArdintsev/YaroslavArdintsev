@@ -1,8 +1,7 @@
 # Hello, my name's Yaroslav! 👋
 
-Junior ML Engineer who turns raw data into working predictive models. My projects cover the full modeling cycle: 
+Junior ML Engineer / Data Scientist who turns raw data into working predictive models. My projects cover the full modeling cycle: 
 data cleaning and analysis, feature engineering, training, validation, and interpretation of results. 
-The next step is to deploy models to production and master MLOps.
 
 ### Tech stack
 
@@ -13,6 +12,23 @@ The next step is to deploy models to production and master MLOps.
 - **Engineering:** Git, Docker, pytest
 
 ### Featured projects
+
+#### Hackathon “Intelligent Data Analysis in the Oil and Gas Industry”
+
+AML GNN for SAML-D
+
+`pandas` · `numpy` · `torch` · `scikit-learn`
+
+* developed an end-to-end pipeline for transaction-level money laundering detection using the synthetic SAML-D dataset
+* constructed a directed temporal graph with bank accounts as nodes and transactions as edges
+* engineered transaction features from amounts, timestamps, currencies, bank locations, and payment types, alongside historical account activity statistics
+* implemented a custom graph neural network in PyTorch with separate aggregation of incoming and outgoing transaction messages
+* designed chronological data splits and strictly historical neighborhood sampling to prevent future-information leakage
+* incorporated class-weighted training, validation-based threshold selection, and evaluation using Average Precision, precision, recall, and review-budget metrics
+* added model checkpointing, reusable preprocessing artifacts, and batch scoring for new transactions
+* achieved 0.999998 ROC-AUC and 0.95 F1-score in cross-validation
+
+[View project →](https://github.com/YaroslavArdintsev/Intelligent-Data-Analysis-in-the-Oil-and-Gas-Industry)
 
 #### Hackathon “Intelligent Data Analysis in the Oil and Gas Industry”
 
