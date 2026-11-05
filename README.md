@@ -26,7 +26,7 @@ data cleaning and analysis, feature engineering, training, validation, and inter
 * added model checkpointing, reusable preprocessing artifacts, and batch scoring for new transactions
 * achieved 0.999998 ROC-AUC and 0.95 F1-score in cross-validation
 
-[View project →](https://github.com/YaroslavArdintsev/Intelligent-Data-Analysis-in-the-Oil-and-Gas-Industry)
+[View project →](https://github.com/YaroslavArdintsev/AML_with_GNN.git)
 
 #### Hackathon “Intelligent Data Analysis in the Oil and Gas Industry”
 
